@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Jost", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+header {
+    flex: 1;
+    background-color: #9395D3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.header-links ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.header-links ul a {
+    font-size: 20px;
+}
+
+.index-main {
+    flex: 20;
+    background-color: #c3c4e6;
+}
+
+footer {
+    background-color: #9395D3;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.active {
+    color: rgb(77, 75, 75);
+    font-weight: 600;
+}
+
+.add-main {
+    flex: 20;
+}
+
+.add-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.add-info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.add-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-title input {
+    font-size: 20px;
+    width: 500px;
+    padding-bottom: 5px;
+    border: none;           /* убрать все границы */
+    border-bottom: 1px solid #8B8787;
+    outline: none;         
+}
+
+.add-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8B8787;
+}
+
+.add-detail input {
+    font-size: 20px;
+    width: 500px;
+    padding-bottom: 5px;
+    border: none;           /* убрать все границы */
+    border-bottom: 1px solid #8B8787;
+    outline: none;         
+}
+
+.add-button {
+    margin-top: 40px;
+    align-self: center;
+}
+
+.add-button button {
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    padding: 8px 30px;
+    background-color: #9395D3;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.task-item {
+    background: #ffffff;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.task-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.task-buttons button {
+    padding: 4px 10px;
+    border: none;
+    background-color: #9395D3;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}

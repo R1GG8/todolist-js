@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-title"><a href="index.html">TODO APP</a></div>
+        <nav class="header-links">
+            <ul>
+                <li><a href="index.html">All</a></li>
+                <li><a href="completed.html">Completed</a></li>
+                <li><a class="active" href="add.html">Add</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="add-main">
+        <div class="add-window">
+            <div class="add-info">
+                <div class="add-title">
+                    <input class="title-input" placeholder="Title" type="text">
+                </div>
+                <div class="add-detail">
+                    <input class="detail-input" placeholder="Detail" type="text">
+                </div>
+            </div>
+            <div class="add-button">
+                <button>ADD</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Todo App — All rights reserved</p>
+    </footer>
+
+    <script src="add_task.js"></script>
+</body>
+
+</html>
